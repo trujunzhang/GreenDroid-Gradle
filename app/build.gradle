@@ -1,0 +1,16 @@
+apply plugin: 'android'
+
+android {
+    compileSdkVersion 19
+    buildToolsVersion '19.0.1'
+
+    buildTypes {
+        release {
+        }
+    }
+}
+
+dependencies {
+    compile project(':GreenDroid')
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+}
