@@ -17,22 +17,33 @@ package com.cyrilmottier.android.gdcatalog;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.widget.Button;
+import android.widget.ListView;
 import greendroid.app.GDListActivity;
 import greendroid.widget.ItemAdapter;
+import org.androidannotations.annotations.AfterViews;
+import org.androidannotations.annotations.EActivity;
+import org.androidannotations.annotations.ViewById;
 
+@EActivity(R.layout.activity_custom_listview)
 public class CustomXmlItemActivity extends Activity {
 
-    @Override
-    public void onCreate(Bundle savedInstanceState) {
-        super.onCreate(savedInstanceState);
+    @ViewById(R.id.button)
+    Button button;
 
+    @ViewById(R.id.listView)
+    ListView listView;
+
+    @AfterViews
+    public void initAfterViewInject() {
         ItemAdapter adapter;
         try {
             adapter = ItemAdapter.createFromXml(this, R.xml.items);
+            listView.setAdapter(adapter);
         } catch (Exception e) {
             e.printStackTrace();
         }
-
     }
+
 
 }
