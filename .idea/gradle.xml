@@ -3,8 +3,9 @@
   <component name="GradleSettings">
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
-        <option name="distributionType" value="DEFAULT_WRAPPED" />
+        <option name="distributionType" value="LOCAL" />
         <option name="externalProjectPath" value="$PROJECT_DIR$" />
+        <option name="gradleHome" value="$PROJECT_DIR$/../../../../../macshare/SHARE/HomeBrew/Library/Gradle/Home" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$" />
@@ -14,7 +15,6 @@
         </option>
       </GradleProjectSettings>
     </option>
-    <option name="offlineWork" value="true" />
   </component>
 </project>
 
