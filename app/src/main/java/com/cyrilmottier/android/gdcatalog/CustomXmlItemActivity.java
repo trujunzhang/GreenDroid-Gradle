@@ -46,7 +46,7 @@ public class CustomXmlItemActivity extends SherlockActivity {
         ItemAdapter adapter;
         try {
             adapter = ItemAdapter.createFromXml(this, R.xml.items);
-//            listView.setAdapter(adapter);
+            listView.setAdapter(adapter);
         } catch (Exception e) {
             e.printStackTrace();
         }
