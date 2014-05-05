@@ -33,10 +33,7 @@
             android:name=".CatalogApplication">
 
         <activity android:name=".CatalogActivity">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
-            </intent-filter>
+
         </activity>
 
         <activity
@@ -47,7 +44,17 @@
 
 
         <activity android:name=".BasicItemActivity"/>
-        <activity android:name=".XmlItemActivity"/>
+
+        <activity android:name=".CustomXmlItemActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN"/>
+                <category android:name="android.intent.category.LAUNCHER"/>
+            </intent-filter>
+        </activity>
+
+        <activity android:name=".XmlItemActivity">
+
+        </activity>
 
         <activity
                 android:name=".TweakedItemViewActivity"
