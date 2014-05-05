@@ -40,6 +40,7 @@
       <sourceFolder url="file://$MODULE_DIR$/src/debug/aidl" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/assets" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/java" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/build/source/apt/debug" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/jni" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/debug/rs" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/src/main/res" type="java-resource" />
@@ -70,6 +71,8 @@
     </content>
     <orderEntry type="jdk" jdkName="Android SDK" jdkType="Android SDK" />
     <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="library" exported="" name="android-query-0.24.3" level="project" />
+    <orderEntry type="library" exported="" name="androidannotations-api-3.0.1" level="project" />
     <orderEntry type="module" module-name="GreenDroid" exported="" />
   </component>
 </module>

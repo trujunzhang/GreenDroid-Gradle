@@ -3,10 +3,13 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
+  <component name="EntryPointsManager">
+    <entry_points version="2.0" />
+  </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
-  <component name="IdProvider" IDEtalkID="D36CB0243D9DED53FF86413AEE0495A4" />
+  <component name="IdProvider" IDEtalkID="F3AD9695BEEC395C65332539DCF41D44" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
