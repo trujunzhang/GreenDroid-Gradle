@@ -73,6 +73,7 @@
     <orderEntry type="sourceFolder" forTests="false" />
     <orderEntry type="library" exported="" name="android-query-0.24.3" level="project" />
     <orderEntry type="library" exported="" name="androidannotations-api-3.0.1" level="project" />
+    <orderEntry type="library" exported="" name="actionbarsherlock-4.4.0" level="project" />
     <orderEntry type="module" module-name="GreenDroid" exported="" />
   </component>
 </module>
