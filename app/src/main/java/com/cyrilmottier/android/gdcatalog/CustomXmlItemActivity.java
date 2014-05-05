@@ -17,16 +17,18 @@ package com.cyrilmottier.android.gdcatalog;
 
 import android.app.Activity;
 import android.os.Bundle;
+import android.view.View;
 import android.widget.Button;
 import android.widget.ListView;
+import com.actionbarsherlock.app.SherlockActivity;
+import com.actionbarsherlock.view.MenuItem;
 import greendroid.app.GDListActivity;
 import greendroid.widget.ItemAdapter;
-import org.androidannotations.annotations.AfterViews;
-import org.androidannotations.annotations.EActivity;
-import org.androidannotations.annotations.ViewById;
+import org.androidannotations.annotations.*;
 
 @EActivity(R.layout.activity_custom_listview)
-public class CustomXmlItemActivity extends Activity {
+@OptionsMenu(R.menu.settings_action_provider)
+public class CustomXmlItemActivity extends SherlockActivity {
 
     @ViewById(R.id.button)
     Button button;
@@ -36,10 +38,15 @@ public class CustomXmlItemActivity extends Activity {
 
     @AfterViews
     public void initAfterViewInject() {
+        this.setTitle("custom xml activity");
+    }
+
+    @Click(R.id.button)
+    public void buttonOnClick(View view) {
         ItemAdapter adapter;
         try {
             adapter = ItemAdapter.createFromXml(this, R.xml.items);
-            listView.setAdapter(adapter);
+//            listView.setAdapter(adapter);
         } catch (Exception e) {
             e.printStackTrace();
         }

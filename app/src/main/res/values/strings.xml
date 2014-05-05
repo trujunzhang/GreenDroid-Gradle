@@ -61,5 +61,6 @@
     <string name="image_for_position">Image for position </string>
     
     <string name="about_content">GreenDroid is a development library for the Android platform. It is intented to make UI developments easier and consistent through your applications.\n\nThe GreenDroid project has been initiated by <a href="http://www.cyrilmottier.com">Cyril Mottier</a></string>
-    
+    <string name="action_bar_share_with">wanghao</string>
+
 </resources>

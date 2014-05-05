@@ -15,20 +15,21 @@
  */
 package com.cyrilmottier.android.gdcatalog;
 
+import android.app.Application;
 import android.content.Intent;
 import android.net.Uri;
 import greendroid.app.GDApplication;
 
-public class CatalogApplication extends GDApplication {
+public class CatalogApplication extends Application {
 
-    @Override
-    public Class<?> getHomeActivityClass() {
-        return CatalogActivity.class;
-    }
-    
-    @Override
-    public Intent getMainApplicationIntent() {
-        return new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.app_url)));
-    }
+//    @Override
+//    public Class<?> getHomeActivityClass() {
+//        return CatalogActivity.class;
+//    }
+
+//    @Override
+//    public Intent getMainApplicationIntent() {
+//        return new Intent(Intent.ACTION_VIEW, Uri.parse(getString(R.string.app_url)));
+//    }
 
 }
