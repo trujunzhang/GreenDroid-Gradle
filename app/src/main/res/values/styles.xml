@@ -22,9 +22,25 @@
     <style name="SeparatorItemView" parent="GreenDroid.Widget.ItemView.SeparatorItemView">
         <item name="android:background">@drawable/separator_bg</item>
     </style>
-    
+
     <style name="TextAppearanceLarge" parent="@style/TextAppearance.Large">
         <item name="android:textSize">18sp</item>
     </style>
-    
+
+    <style name="Theme.Sherlock.app" parent="Theme.Sherlock.Light">
+        <item name="android:actionBarStyle">@style/YOURTHEME.ActionBarStyle</item>
+        <item name="actionBarStyle">@style/YOURTHEME.ActionBarStyle</item>
+    </style>
+
+    <style name="YOURTHEME.ActionBarStyle" parent="Widget.Sherlock.Light.ActionBar">
+        <item name="android:titleTextStyle">@style/YOURTHEME.ActionBar.TitleTextStyle</item>
+        <item name="titleTextStyle">@style/YOURTHEME.ActionBar.TitleTextStyle</item>
+    </style>
+
+    <style name="YOURTHEME.ActionBar.TitleTextStyle" parent="TextAppearance.Sherlock.Widget.ActionBar.Title">
+        <item name="android:textColor">#ff0000</item>
+        <item name="android:background">#ffff00</item>
+    </style>
+
+
 </resources>

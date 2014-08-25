@@ -3,13 +3,21 @@
   <component name="DaemonCodeAnalyzer">
     <disable_hints />
   </component>
-  <component name="EntryPointsManager">
-    <entry_points version="2.0" />
+  <component name="EclipseCodeFormatter">
+    <option name="defaultSettings" value="true" />
+    <option name="enableJSFormatting" value="true" />
+    <option name="formatter" value="ECLIPSE" />
+    <option name="id" value="1403420390291" />
+    <option name="name" value="default" />
+    <option name="optimizeImports" value="false" />
+    <option name="pathToConfigFileJS" value="$USER_HOME$/Library/Preferences/Jetbrains/EclipseFormatter/styles/eclipse-formatter-profiles-master/google-style-guide-javascript-eclipse.xml" />
+    <option name="pathToConfigFileJava" value="$USER_HOME$/Library/Preferences/Jetbrains/EclipseFormatter/styles/common/format.xml" />
+    <option name="selectedJavaProfile" value="kuk" />
+    <option name="selectedJavaScriptProfile" value="Google JavaScript Style" />
   </component>
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$" />
   </component>
-  <component name="IdProvider" IDEtalkID="F3AD9695BEEC395C65332539DCF41D44" />
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
       <profile-state>
@@ -150,7 +158,7 @@
     <states>
       <state key="ProjectJDKs.UI">
         <settings>
-          <last-edited>Android SDK</last-edited>
+          <last-edited>Android API 19 Platform</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
