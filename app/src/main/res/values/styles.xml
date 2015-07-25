@@ -19,6 +19,11 @@
 
 <resources>
 
+    <style name="AppBaseTheme" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/action_bar_background_color</item>
+        <!--<item name="colorPrimaryDark">@android:color/holo_red_light</item>-->
+    </style>
+
     <style name="SeparatorItemView" parent="GreenDroid.Widget.ItemView.SeparatorItemView">
         <item name="android:background">@drawable/separator_bg</item>
     </style>

@@ -1,5 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?>
-<!--
+<?xml version="1.0" encoding="utf-8"?><!--
 /*
 ** Copyright (C) 2010 Cyril Mottier (http://www.cyrilmottier.com)
 **
@@ -17,36 +16,35 @@
 */
 -->
 
-<manifest
-        xmlns:android="http://schemas.android.com/apk/res/android"
-        package="com.cyrilmottier.android.gdcatalog"
-        android:versionCode="2"
-        android:versionName="0.2">
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.cyrilmottier.android.gdcatalog"
+    android:versionCode="2"
+    android:versionName="0.2">
 
-    <uses-sdk android:minSdkVersion="7"/>
-    <uses-permission android:name="android.permission.INTERNET"/>
+    <uses-sdk android:minSdkVersion="7" />
+    <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-            android:icon="@drawable/ic_gdcatalog"
-            android:label="@string/app_name"
-            android:name=".CatalogApplication">
+        android:name=".CatalogApplication"
+        android:icon="@drawable/ic_gdcatalog"
+        android:label="@string/app_name"
+        android:theme="@style/AppBaseTheme">
 
         <activity android:name=".CatalogActivity">
 
         </activity>
 
         <activity
-                android:name=".InfoTabActivity"
-                android:label="@string/general_info_label">
-
+            android:name=".InfoTabActivity"
+            android:label="@string/general_info_label">
 
 
         </activity>
-        <activity android:name=".WebContentActivity"/>
-        <activity android:name=".AboutActivity"/>
+        <activity android:name=".WebContentActivity" />
+        <activity android:name=".AboutActivity" />
 
 
-        <activity android:name=".BasicItemActivity"/>
+        <activity android:name=".BasicItemActivity" />
 
         <activity android:name=".CustomXmlItemActivity">
 
@@ -54,25 +52,25 @@
 
         <activity android:name=".XmlItemActivity">
             <intent-filter>
-                <action android:name="android.intent.action.MAIN"/>
-                <category android:name="android.intent.category.LAUNCHER"/>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
 
         <activity
-                android:name=".TweakedItemViewActivity"
-                android:theme="@style/Theme.GDCatalog.TweakedItems"/>
+            android:name=".TweakedItemViewActivity"
+            android:theme="@style/Theme.GDCatalog.TweakedItems" />
 
-        <activity android:name=".SegmentedActivity"/>
-        <activity android:name=".ActionBarActivity"/>
-        <activity android:name=".TabbedActionBarActivity"/>
-        <activity android:name=".TabbedActionBarActivity$FakeActivity"/>
+        <activity android:name=".SegmentedActivity" />
+        <activity android:name=".ActionBarActivity" />
+        <activity android:name=".TabbedActionBarActivity" />
+        <activity android:name=".TabbedActionBarActivity$FakeActivity" />
 
-        <activity android:name=".QuickActionActivity"/>
-        <activity android:name=".SimpleAsyncImageViewActivity"/>
-        <activity android:name=".AsyncImageViewListActivity"/>
+        <activity android:name=".QuickActionActivity" />
+        <activity android:name=".SimpleAsyncImageViewActivity" />
+        <activity android:name=".AsyncImageViewListActivity" />
 
-        <activity android:name=".PagedViewActivity"/>
+        <activity android:name=".PagedViewActivity" />
 
     </application>
 
