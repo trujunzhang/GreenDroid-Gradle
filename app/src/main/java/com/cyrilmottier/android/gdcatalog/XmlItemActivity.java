@@ -17,18 +17,27 @@ package com.cyrilmottier.android.gdcatalog;
 
 import greendroid.app.GDListActivity;
 import greendroid.widget.ItemAdapter;
-import android.os.Bundle;
 
-public class XmlItemActivity extends GDListActivity {
+import android.os.Bundle;
+import android.support.v7.app.AppCompatActivity;
+import android.view.View;
+import android.widget.AdapterView;
+import android.widget.ListView;
+
+public class XmlItemActivity extends AppCompatActivity {
+    private ListView mList;
 
     @Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        this.setContentView(R.layout.activity_xml_item);
+
+        this.mList = (ListView) findViewById(R.id.list);
 
         ItemAdapter adapter;
         try {
             adapter = ItemAdapter.createFromXml(this, R.xml.items);
-            setListAdapter(adapter);
+            mList.setAdapter(adapter);
         } catch (Exception e) {
             e.printStackTrace();
         }
