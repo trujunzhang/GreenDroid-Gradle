@@ -37,7 +37,11 @@
 
         <activity
                 android:name=".InfoTabActivity"
-                android:label="@string/general_info_label"/>
+                android:label="@string/general_info_label">
+
+
+
+        </activity>
         <activity android:name=".WebContentActivity"/>
         <activity android:name=".AboutActivity"/>
 
@@ -45,14 +49,14 @@
         <activity android:name=".BasicItemActivity"/>
 
         <activity android:name=".CustomXmlItemActivity">
+
+        </activity>
+
+        <activity android:name=".XmlItemActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN"/>
                 <category android:name="android.intent.category.LAUNCHER"/>
             </intent-filter>
-        </activity>
-
-        <activity android:name=".XmlItemActivity">
-
         </activity>
 
         <activity

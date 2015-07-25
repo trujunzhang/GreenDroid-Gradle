@@ -45,9 +45,9 @@ public class CatalogActivity extends GDListActivity {
 
         setListAdapter(adapter);
 
-        addActionBarItem(getGDActionBar()
-                .newActionBarItem(NormalActionBarItem.class)
-                .setDrawable(new ActionBarDrawable(this, R.drawable.ic_action_bar_info)), R.id.action_bar_view_info);
+//        addActionBarItem(getGDActionBar()
+//                .newActionBarItem(NormalActionBarItem.class)
+//                .setDrawable(new ActionBarDrawable(this, R.drawable.ic_action_bar_info)), R.id.action_bar_view_info);
     }
 
     private TextItem createTextItem(int stringId, Class<?> klass) {
